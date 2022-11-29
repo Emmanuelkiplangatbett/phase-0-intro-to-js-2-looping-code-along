@@ -21,7 +21,6 @@ describe( 'index.js', () => {
       ]);
     } );
   } );
-
   describe( 'countDown()', () => {
     afterEach( () => {
       spy.restore();
